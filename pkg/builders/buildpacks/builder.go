@@ -24,14 +24,14 @@ const DefaultName = builders.Pack
 
 var (
 	DefaultBuilderImages = map[string]string{
-		"node":       "gcr.io/paketo-buildpacks/builder:base",
-		"nodejs":     "gcr.io/paketo-buildpacks/builder:base",
-		"typescript": "gcr.io/paketo-buildpacks/builder:base",
-		"go":         "gcr.io/paketo-buildpacks/builder:base",
-		"python":     "gcr.io/paketo-buildpacks/builder:base",
-		"quarkus":    "gcr.io/paketo-buildpacks/builder:base",
-		"rust":       "gcr.io/paketo-buildpacks/builder:base",
-		"springboot": "gcr.io/paketo-buildpacks/builder:base",
+		"node":       "docker.io/paketobuildpacks/builder-jammy-base",
+		"nodejs":     "docker.io/paketobuildpacks/builder-jammy-base",
+		"typescript": "docker.io/paketobuildpacks/builder-jammy-base",
+		"go":         "docker.io/paketobuildpacks/builder-jammy-base",
+		"python":     "docker.io/paketobuildpacks/builder-jammy-base",
+		"quarkus":    "docker.io/paketobuildpacks/builder-jammy-base",
+		"rust":       "docker.io/paketobuildpacks/builder-jammy-base",
+		"springboot": "docker.io/paketobuildpacks/builder-jammy-base",
 	}
 
 	// Ensure that all entries in this list are terminated with a trailing "/"
